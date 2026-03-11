@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Historia>
+    <Escena id="Escena1">
+        <Frase personaje="Narrador" color="#FFFFFF" lado="nadie">Año 1348. La Peste Negra asola el reino y el miedo se convierte en odio...</Frase>
+        <Frase personaje="Amiga 1" color="#F1C40F" lado="izq">¡Escóndete! Los guardias vienen hacia la casa de la boticaria.</Frase>
+        <Frase personaje="Amiga 2" color="#E91E63" lado="der">Dicen que ella atrajo la maldición. ¡Si no hacemos algo, la quemarán al amanecer!</Frase>
+        <Frase personaje="Amiga 1" color="#F1C40F" lado="izq">He encontrado este frasco extraño en su sótano. Quizás sea la cura... o la prueba de su culpabilidad.</Frase>
+    </Escena>
+    <Escena id="Escena2">
+        <Frase personaje="Narrador" color="#FFFFFF" lado="nadie">Lográis escapar al bosque, donde el aire parece más pesado.</Frase>
+        <Frase personaje="Amiga 2" color="#E91E63" lado="der">Este lugar me da escalofríos. ¿Seguro que los manuscritos hablaban de esta cueva?</Frase>
+        <Frase personaje="Amiga 1" color="#F1C40F" lado="izq">Si queremos salvarla, tenemos que encontrar los ingredientes de la medicina aquí dentro.</Frase>
+    </Escena>
+</Historia>
