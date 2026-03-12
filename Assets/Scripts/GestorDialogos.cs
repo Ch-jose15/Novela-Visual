@@ -11,11 +11,14 @@ public class GestorDialogos : MonoBehaviour
     public TextMeshProUGUI txtDialogo;   
     public GameObject fondoEscena1;
     public GameObject fondoEscena2;
-    public float velocidadEscritura = 0.05f;
+    public float velocidadEscritura = 0.3f;
     public GameObject personajeIzquierda, personajeDerecha;
     public GameObject panelhistorial;
     public TextMeshProUGUI txtLogPrefab;
     public Transform contenedorLog;
+    public AudioSource fuenteEfectos;
+    public AudioClip sonidoLetra;
+    public AudioClip sonidoCambioEscena; 
 
     private XmlDocument documentoXml;
     private XmlNodeList frases;
@@ -117,6 +120,7 @@ public class GestorDialogos : MonoBehaviour
         foreach(char letra in textoCompletoActual.ToCharArray())
         {
             txtDialogo.text += letra;
+            if (sonidoLetra != null) fuenteEfectos.PlayOneShot(sonidoLetra);
             yield return new WaitForSeconds(velocidadEscritura);
         }
 
